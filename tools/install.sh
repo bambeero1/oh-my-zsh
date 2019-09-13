@@ -4,7 +4,7 @@ install_req(){
 
     sudo apt-get update
     sudo apt-get -yy install apt-transport-https ca-certificates curl software-properties-common wget
-    sudo apt-get -yy install git python-dev python-pip python3-dev python3-pip gcc g++ make cmake virtualenv
+    sudo apt-get -yy install git python-dev python-pip python3-dev python3-pip gcc g++ make cmake virtualenv build-essential
     sudo python3 -m pip install --upgrade pip
     sudo python2 -m pip install --upgrade pip
     sudo apt-get update && sudo apt install zsh powerline fonts-powerline zsh-syntax-highlighting
